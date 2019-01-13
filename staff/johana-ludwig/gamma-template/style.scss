@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    max-height: 3.5em;
+}
+
+#nav nav ul {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_title {
+    color: #04B4AE;
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
+button.nav_bars {
+    margin-right: 3em;
+    margin-top: 1em;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 0.2em;
+    height: 3em;
+    width: 4em;  
+}
+
+.header {
+    height: 25em;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.header_title--white {
+    color: white;
+    text-align: center;
+    font-weight: bold;  
+}
+
+.header_title--aqua {
+    color: #04B4AE;
+}
+
+.header_description {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0px 20px;
+}
+
+.header_img {
+    width: 12em;
+    margin: 0 auto;
+    padding-top: 1.5em;
+    display: block;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 38em;
+    margin-left: 1em;
+}
+
+.container--background_color {
+    background-color: rgb(6, 6, 31);
+}
+
+.containe_title {
+    color: black;
+    text-align: left;
+    padding-left: 2em; 
+}
+
+.container_img {
+    width: 1em;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.container_img--border {
+    border: 0.09em solid rgb(182, 181, 181);
+    margin-top: 5em;
+    width: 23em;
+    padding: 0em;
+}
+
+.container_description {
+    color: black;
+    text-align: left;
+    font-size: 0.9em;
+    margin-bottom: 2em;
+}
+
+.container_button {
+    text-align: left;
+    width: 7em; 
+}
+
+.container--margin {
+    margin-top: 0;
+}
+
+.last_container {
+    background-color: #04B4AE;
+    padding: 10px;
+    
+    li {
+        list-style-type: none;
+        color:white
+    }
+
+    h2{
+        color: white;
+        margin: 2em 0em 0em 1em;
+        font-size: 2em;
+    }
+
+    img {
+        margin-left: 1.5em;
+    }
+}
+
+footer {
+    background-color: black;
+}
+
+nav li {
+    list-style-type: none;
+    color:white
+}
+
+
